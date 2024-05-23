@@ -1,0 +1,106 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+}
+.container{
+    height: 600px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 14px;
+    background: rgb(234 234 234);
+    background: #000000d0;
+    color: white;
+}
+
+.input > input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    color:rgb(255 255 255);
+    padding: 0.3rem;
+background: #7c7c7c2b;
+    font-family: 'Raleway',sans-serif;
+    padding-left: 20px;
+    font-size: 1rem;
+    margin-left: 70px;
+    
+}
+button .button{
+    border: none;
+    padding: 6px;
+    width: 29px;
+   padding-left: 20px;
+    font-size: 1.2rem;
+background: #7c7c7c2b;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    transition: (.5s);
+}
+.button{
+    margin-left: 20px;
+    height: 37px;
+    width: 37px;
+    border-radius:50%;
+    border: none;
+}
+
+button.button:focus{
+    outline: none;
+    border-radius: 50%;
+}
+button.button:hover{
+    
+    border: 1px solid rgb(112, 112, 112);
+    
+}
+.weather-img {
+    height: 160px;
+    width: 160px;
+    margin-top: 10px;
+    background-size: cover;
+    margin-left: 90px;
+}
+
+.displayweather{
+    margin-top: 20px;
+    
+.humidwind{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 10px;
+    
+}
+.humid-percent{
+    margin-left: 10px;
+}
+.desc{
+    margin-top: 50px;
+    margin-left: 130Px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.placetemp{
+    margin-top: 90px;
+    margin-left: 140px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+}
+}
+.temp{
+    margin-left:40px;
+}
+.place{
+    margin-left: 40PX;
+    
+}
